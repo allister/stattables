@@ -1976,6 +1976,10 @@ figcaption {
   padding: .5rem 1rem;
 }
 
+.navbar2_dropdown-link-2:hover {
+  color: #17bebb;
+}
+
 .navbar2_dropdown-link-2.w--current {
   color: var(--base-color-neutral--black);
 }
@@ -2428,9 +2432,12 @@ figcaption {
   }
 
   .navbar2_menu-2.is-page-height-tablet {
+    background-color: #708090;
     height: 100dvh;
     padding-bottom: 6.5rem;
-    transition: height .5s;
+    transition-property: height;
+    transition-duration: .5s;
+    transition-timing-function: ease;
   }
 
   .navbar2_link-2 {
@@ -2790,6 +2797,7 @@ figcaption {
   }
 
   .navbar2_menu-2.is-page-height-tablet {
+    background-color: #708090;
     padding-bottom: 6rem;
   }
 
@@ -2964,6 +2972,10 @@ figcaption {
 
   .image {
     background-color: #0000;
+  }
+
+  .navbar2_menu-2.is-page-height-tablet {
+    background-color: #708090;
   }
 
   .heading-3 {
